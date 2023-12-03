@@ -1,0 +1,9 @@
+<button (click)="openPaymentLink()">Pay with UPI</button>
+
+<div *ngIf="paymentSuccess" class="success-message">
+  Payment successful!
+</div>
+
+<div *ngIf="paymentFailure" class="error-message">
+  Payment failed!
+</div>
